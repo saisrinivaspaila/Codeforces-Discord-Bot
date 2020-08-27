@@ -1,0 +1,23 @@
+{
+  "name": "codeforces-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saisrinivaspaila/Codeforces-Discord-Bot.git"
+  },
+  "author": "Sai Srinivas Paila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saisrinivaspaila/Codeforces-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/saisrinivaspaila/Codeforces-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "https": "^1.0.0"
+  }
+}

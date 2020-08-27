@@ -1,6 +1,7 @@
 const Discord = require(`discord.js`);
 const https = require(`https`);
-const { prefix, token } = {"Your required prefix", "Your bot token"}
+const prefix = "your bot prefix";
+const token = "your bot token";
 const client = new Discord.Client();
 const upComingEmbed = new Discord.MessageEmbed();
 const helpEmbed = new Discord.MessageEmbed();
