@@ -1,6 +1,6 @@
 const Discord = require(`discord.js`);
 const https = require(`https`);
-const { prefix, token } = require(`./config.json`);
+const { prefix, token } = {"Your required prefix", "Your bot token"}
 const client = new Discord.Client();
 const upComingEmbed = new Discord.MessageEmbed();
 const helpEmbed = new Discord.MessageEmbed();
@@ -199,7 +199,7 @@ setInterval(() => {
                     }
                     upComingContestFields.push({
                         name: `${data[i].name}`,
-                        value: `Contest Id: ${data[i].id}\n Contest Start Time: ${timeString1}\n Contest Duration (in hrs): ${timeString2}`,
+                        value: `Contest Id: ${data[i].id}\nContest Start Time: ${timeString1}\nContest Duration (in hrs): ${timeString2}`,
                     });
                 }
                 upComing = upComingContestFields;
